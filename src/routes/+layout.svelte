@@ -1,6 +1,8 @@
 <script lang="ts">
-	import '../app.css';
-	let { children } = $props();
+  import "@fontsource-variable/overpass";
+  import "@fontsource-variable/overpass-mono";
+  import "../app.css";
+  let { children } = $props();
 </script>
 
 {@render children()}

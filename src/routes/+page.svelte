@@ -1,2 +1,15 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+  import HeroSection from "$lib/components/hero-section.svelte";
+  import WorkSection from "$lib/components/work-section.svelte";
+  import ServiceSection from "$lib/components/service-section.svelte";
+  import AboutSection from "$lib/components/about-section.svelte";
+</script>
+
+<main
+  class="flex flex-col gap-20 sm:gap-24 md:gap-32 lg:gap-48 xl:gap-64 mb-32"
+>
+  <HeroSection />
+  <WorkSection />
+  <!-- <ServiceSection /> -->
+  <AboutSection />
+</main>
